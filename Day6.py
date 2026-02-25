@@ -115,6 +115,8 @@ print(txt.format_map(myvar))
 
 # The index() method is almost the same as the find() method, the only difference is that the find() method returns -1 if the value is not found. 
 
+# It count space also and symbols also
+
 #Example
 
 txt = "Hello, welcome to my world."
@@ -123,12 +125,7 @@ x = txt.index("welcome")
 
 print(x)
 
+#output
+#7
 
-
-
-
-
-
-
-
-
+# ----------------------------------------------------------------------------
